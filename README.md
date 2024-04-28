@@ -29,3 +29,10 @@ License
 -------
 
 This project is licensed under the MIT license. See the LICENSE file for more information.
+
+Deployed URL:
+-------------
+
+The project is also deployed at the following URL:
+
+https://nishkarsh123.github.io/Tabbed-Browser/
