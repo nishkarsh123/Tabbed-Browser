@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.tab {
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #f0f0f0;
+}
+.tab:hover {
+  background-color: #e0e0e0;
+}
+
+.close-tab {
+  padding: 1px;
+  margin-left: 5px;
+  border-radius: 20px;
+  color: red;
+  cursor: pointer;
+}
+.close-tab:hover {
+  background-color: grey;
+}
+
+.add-tab {
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.add-tab:hover {
+  background-color: #e0e0e0;
+}
+
+#tab-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+#input-url{
+  width: 80%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+#submit-button{
+  padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+#submit-button:hover {
+  background-color: #0056b3;
+}
