@@ -36,3 +36,5 @@ Deployed URL:
 The project is also deployed at the following URL:
 
 https://nishkarsh123.github.io/Tabbed-Browser/
+
+Try to Add Tabs using URL ie: https://en.wikipedia.org/wiki/Main_Page
